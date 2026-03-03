@@ -34,7 +34,7 @@
 						</ul>
 						<img src="assets/alp_bull.png" alt="Alper's Logo" class="h-80">
 					</div>
-					<p class="text-2xl">Self-employed Consultant & Developer</p>
+					<p class="text-2xl">Self-employed <strong>Consultant & Developer</strong></p>
 					<p class="text-2xl"><strong>Engineering Lead</strong> @ Genius Sports</p>
 					<p class="text-2xl">						
 						<img src="assets/x_logo.png" alt="X Logo" class="inline h-8">
@@ -110,7 +110,7 @@
 							<hr class="border-gray-600 my-4">
 							<p class="text-2xl font-semibold">25 <span class="text-base text-gray-400">credits</span></p>
 						</div>
-						<div class="border-2 border-green-500 rounded-xl p-4 w-64 relative">
+						<div class="border border-gray-600 rounded-xl p-4 w-64 relative">
 							<p class="text-sm uppercase tracking-widest">Pro</p>
 							<p class="text-4xl font-bold mt-2">$15</p>
 							<p class="text-gray-400 text-sm">/month</p>
@@ -307,10 +307,10 @@
 				
 				<section>
 					<h2>Browser Verification</h2>
-					<p><strong class="text-amber-300">MCP</strong> or <strong class="text-blue-300">CLI</strong> to interacting with a real browser</p>
+					<p><strong class="text-amber-300">MCP</strong> or <strong class="text-blue-300">CLI</strong> to interact with a real browser</p>
 					<p class="text-2xl text-gray-300">Has access to <strong class="text-white">browser console</strong>, <strong class="text-white">network tab</strong>, <strong class="text-white">lighthouse audits</strong>, etc.</p>
-					<p class="pt-8 text-5xl">
-						Choose One
+					<p class="pt-8">
+						Choose Wisely
 					</p>
 					<ul class="text-2xl">
 						<li><strong>Playwright CLI</strong> (best to avoid context rot)</li>
@@ -425,7 +425,7 @@
 							Use playwright-cli to verify UI changes
 							Never add backwards compatibility without explicit approval
 							+ Never loosen test assertions just to make them pass
-							+ Failing real tests are better than fake passing tests
+							+ Failing real tests is better than fake passing tests
 							+ You can declare tests as ready even if they are failing
 
 						</code>	
@@ -434,9 +434,9 @@
 
 				<section>
 					<h2>Context Window</h2>
-					<p>Most models have a <strong class="text-yellow-300">200k token</strong> context window<br><small>(some models have <strong class="text-sky-300">1M</strong> tokens)</small></p>
+					<p>Most models have a <strong class="text-yellow-300">200k token</strong> context window<br><small>(a few have <strong class="text-sky-300">1M</strong> tokens)</small></p>
 					<hr>
-					<p>Once the context is <strong class="text-red-400">&lt;50%</strong> full, performance degrades</p>
+					<p>Once the context is <strong class="text-red-400">&gt;50%</strong> full, performance degrades significantly</p>
 					<hr>
 					<p class="text-2xl">Make sure to keep the chat free of distractions like:</p>
 					<ul class="text-2xl">
@@ -477,7 +477,7 @@
 							Use playwright-cli to verify UI changes
 							Never add backwards compatibility without explicit approval
 							Never loosen test assertions just to make them pass
-							Failing real tests are better than fake passing tests
+							Failing real tests is better than fake passing tests
 							You can declare tests as ready even if they are failing
 							+ Always use Fast Context when searching for file contents
 						</code>	
@@ -525,9 +525,65 @@
 							<p class="text-amber-300 font-bold text-2xl mt-3">✅ &nbsp; 4 credits</p>
 						</div>
 					</div>
-					<p class="mt-6 text-2xl">The <strong class="text-sky-300">Ask tool</strong> fills each prompt's token horizon for free</p>
 				</section>
 				
+				<section>
+					<h2>Interviews #3</h2>
+					<p class="text-2xl mb-6">The <strong class="text-sky-300">Ask tool</strong> fills the prompt token context with requirement gathering</p>
+					<div class="flex justify-center">
+						<div class="flex flex-col items-center w-72 relative">
+							<div class="absolute -top-4 left-0 w-full text-center">
+								<span class="text-xs text-gray-500">~200k token horizon</span>
+							</div>
+							<div class="w-full border-2 border-green-500 rounded-lg relative" style="height: 340px;">
+								<div class="absolute bottom-0 w-full rounded-b-lg overflow-hidden flex flex-col" style="height: 300px;">
+									<div class="w-full bg-sky-500/25 px-3 py-1.5 flex items-center gap-2 border-b border-gray-700/50">
+										<span class="text-xs font-bold text-sky-300">Me</span>
+										<span class="text-xs text-sky-200/80 italic">Build a dashboard with charts</span>
+									</div>
+									<div class="w-full bg-purple-500/25 px-3 py-1.5 flex items-center gap-2 border-b border-gray-700/50">
+										<span class="text-xs font-bold text-purple-300">AI</span>
+										<span class="text-xs text-amber-200/80 italic">Which chart library? Recharts?</span>
+									</div>
+									<div class="w-full bg-sky-500/25 px-3 py-1.5 flex items-center gap-2 border-b border-gray-700/50">
+										<span class="text-xs font-bold text-sky-300">Me</span>
+										<span class="text-xs text-sky-200/80 italic">Yes, use Recharts with dark theme</span>
+									</div>
+									<div class="w-full bg-purple-500/25 px-3 py-1.5 flex items-center gap-2 border-b border-gray-700/50">
+										<span class="text-xs font-bold text-purple-300">AI</span>
+										<span class="text-xs text-amber-200/80 italic">What data sources? REST API?</span>
+									</div>
+									<div class="w-full bg-sky-500/25 px-3 py-1.5 flex items-center gap-2 border-b border-gray-700/50">
+										<span class="text-xs font-bold text-sky-300">Me</span>
+										<span class="text-xs text-sky-200/80 italic">GraphQL, here's the schema...</span>
+									</div>
+									<div class="w-full bg-purple-500/25 px-3 py-1.5 flex items-center gap-2 border-b border-gray-700/50">
+										<span class="text-xs font-bold text-purple-300">AI</span>
+										<span class="text-xs text-amber-200/80 italic">Should I add filtering?</span>
+									</div>
+									<div class="w-full bg-sky-500/25 px-3 py-1.5 flex items-center gap-2 border-b border-gray-700/50">
+										<span class="text-xs font-bold text-sky-300">Me</span>
+										<span class="text-xs text-sky-200/80 italic">Yes, date range + category</span>
+									</div>
+									<div class="w-full bg-purple-500/25 px-3 py-1.5 flex items-center gap-2 border-b border-gray-700/50">
+										<span class="text-xs font-bold text-purple-300">AI</span>
+										<span class="text-xs text-amber-200/80 italic">How should errors be handled?</span>
+									</div>
+									<div class="w-full bg-sky-500/25 px-3 py-1.5 flex items-center gap-2 border-b border-gray-700/50">
+										<span class="text-xs font-bold text-sky-300">Me</span>
+										<span class="text-xs text-sky-200/80 italic">Toast notifications, retry button</span>
+									</div>
+									<div class="w-full bg-purple-500/25 px-3 py-1.5 flex items-center gap-2 h-full">
+										<span class="text-xs font-bold text-purple-300">AI</span>
+										<span class="text-xs text-amber-200/80 italic">Got it, starting implementation!</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<p class="mt-4 text-xl text-gray-400">Each ask round-trip adds context <strong class="text-green-400">without spending credits</strong></p>
+				</section>
+
 				<section>
 					<h2>Rules #6</h2>
 					<p><code>AGENTS.md</code></p>
@@ -538,7 +594,7 @@
 							Use playwright-cli to verify UI changes
 							Never add backwards compatibility without explicit approval
 							Never loosen test assertions just to make them pass
-							Failing real tests are better than fake passing tests
+							Failing real tests is better than fake passing tests
 							You can declare tests as ready even if they are failing
 							Always use Fast Context when searching for file contents
 							+ Ask before, when blocked mid-task and to confirm unknowns
@@ -549,36 +605,34 @@
 				</section>	
 
 				<section>
+					<h2>Planning</h2>
+					<p class="pt-8">Write the specs first</p>
+					<p class="text-2xl">
+						Communicate <span class="text-amber-300 font-bold uppercase">intent</span>, not<br />
+						<span class="text-red-300 font-bold uppercase">implementation details</span>
+					</p>
+					<p class="pt-12 text-2xl text-gray-300">Simple markdown files and/or plan mode are sufficient</p>
+				</section>
+
+				<section>
 					<h2>Skill Tree</h2>
-					<p></p>
-				</section>
-
-				<section>
-					<h2>Code Review</h2>
-					<p>Lifeguard reviews code for issues and suggests improvements</p>
-				</section>
-
-				<section>
-					<h2></h2>
-					<p></p>
-				</section>
-
-				<section>
-					<h2></h2>
-					<p></p>
+					<p>Apart from Rules there are:
+						<ul>
+							<li>Memories</li>
+							<li>Skills</li>
+							<li>MCP's</li>
+							<li>Workflows (Commands)</li>
+						</ul>
+					</p>
+					<p class="pt-8 text-3xl">I currently use them only sparingly</p>
 				</section>
 
 				<section>
 					<h2>Troubleshooting</h2>
-					<p>Let AI show you its system prompt</p>
-					<p>Let AI explain you why it does things a certain way</p>
-					<p>Examples:</p>
-					<ul>
-						<li>Why did you not follow this specific instruction?</li>
-						<li>What makes you think this is the correct way to write tests?</li>
-						<li>...</li>
-					</ul>
-					<h1>Curiousity > Judgement</h1>
+					<p class="text-2xl font-bold pb-8">Let AI show you its system prompt</p>
+					<p class="text-3xl">Why didnt you follow the instructions about legacy code?</p>
+					<p class="text-3xl">Which part of the rules make you write tests like that?</p>
+					<h1 class="text-6xl pt-8"><span class="text-green-300">Curiosity</span> > <span class="text-red-300">Judgement</span></h1>
 				</section>
 
 				<section>
@@ -587,12 +641,13 @@
 					<ul>
 						<li>Autocomplete</li>
 						<li>Commit Message Generation</li>
+						<li>Lifeguard reviews code for issues</li>
 					</ul>
 				</section>
 
 				<section>
 					<h2>Magic Wand</h2>
-					<p>Subagents</p>
+					<p>Subagents are the missing piece</p>
 					<ul>
 						<li>Ask me questions -> free model</li>
 						<li>Create Plan -> frontier model</li>
@@ -602,13 +657,27 @@
 				</section>
 
 				<section>
-					<h2>AI Stack</h2>
-					<p>building a community for AI enthusiasts</p>
+					<h2>Next steps</h2>
+					<p>Swiss-cheese model and spec-driven development</p>
+					<p><img src="assets/swiss-cheese.jpg" alt="Swiss Cheese Model" class="max-w-2xl mx-auto" /></p>
+					<p class="text-xl">source: <a href="https://www.latent.space/p/reviews-dead" target="_blank" class="underline">https://www.latent.space/p/reviews-dead</a></p>
 				</section>
 
 				<section>
-					<h2></h2>
-					<p></p>
+					<h2>AI Stack</h2>
+					<p>Building a community for AI enthusiasts</p>
+					<video src="assets/aistack-demo.mp4" controls autoplay loop muted class="max-w-2xl mx-auto border-2 border-gray-600"></video>
+					<p class="text-xl text-sky-300">https://aistack.to</p>
+				</section>
+
+				<section>
+					<h1>Thanks<span class="text-sky-300">!</span></h1>
+					<h2>Questions<span class="text-amber-300">?</span></h2>
+					<p class="pt-32 text-lg text-sky-300">
+						<a href="https://x.com/alperortac" target="_blank" class="underline">
+							https://x.com/alperortac
+						</a>
+					</p>
 				</section>
 			</div>
 		</div>
