@@ -265,7 +265,7 @@ gulp.task('qunit', () => {
     } );
 } )
 
-gulp.task('eslint', () => gulp.src(['./js/**', 'gulpfile.js'])
+gulp.task('eslint', () => gulp.src(['./js/**', 'gulpfile.cjs'])
         .pipe(eslint())
         .pipe(eslint.format()))
 

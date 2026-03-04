@@ -1,2 +1,3 @@
+# Rules
 * use tailwind for styling
-* use chrome devtools mcp for checking changes
+* use playwright-cli for checking changes
