@@ -2,7 +2,30 @@
 
 **Optimizing for Cost and Productivity**
 
-> **⚠️ Outdated Pricing Information:** Windsurf has moved from credits-based pricing to a usage-based quota system with strict daily and weekly limits. The pricing information in these slides reflects the **old credits model** and is no longer accurate. Even Windsurf's new $200/month plan is significantly more limited than comparable subscriptions from other AI coding tools. Evaluate their [current pricing](https://windsurf.com/pricing) carefully before subscribing.
+<div align="center">
+
+---
+
+### 🚨 Pricing Information Outdated 🚨
+
+**Windsurf has abandoned the credits-based pricing model shown in these slides.**
+
+They now enforce a **usage-based quota** with strict **daily and weekly limits**<br>
+that makes the tool barely usable for professional work.
+
+| | Old Model (in slides) | New Model (current) |
+|---|---|---|
+| **System** | Credits per prompt | Usage-based quota |
+| **Limits** | Monthly pool, roll-over | Daily + weekly hard caps |
+| **Predictability** | ✅ High | ❌ Low |
+
+> Even the new **$200/month plan** is more limited than comparable subscriptions from other AI coding tools.
+
+👉 Check [**windsurf.com/pricing**](https://windsurf.com/pricing) for current details before subscribing.
+
+---
+
+</div>
 
 ![Windsurf Slide Edit](assets/windsurf-slide-edit.png)
 
