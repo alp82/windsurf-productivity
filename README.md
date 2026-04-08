@@ -30,7 +30,7 @@ that makes the tool **barely usable** for professional work.
 
 <br>
 
-### 👉 Check [windsurf.com/pricing](https://windsurf.com/pricing) for current details before subscribing.
+Check Windsurf pricing for current details before subscribing.
 
 <br>
 
