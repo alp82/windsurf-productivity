@@ -1,31 +1,46 @@
-# Coding with Windsurf
-
-**Optimizing for Cost and Productivity**
-
 <div align="center">
 
----
+<table><tr><td>
 
-### 🚨 Pricing Information Outdated 🚨
+<br>
 
-**Windsurf has abandoned the credits-based pricing model shown in these slides.**
+## 🚨🚨🚨 PRICING INFORMATION OUTDATED 🚨🚨🚨
+
+<br>
+
+### ❌ Windsurf has ABANDONED the credits-based pricing model shown in these slides.
+
+<br>
 
 They now enforce a **usage-based quota** with strict **daily and weekly limits**<br>
-that makes the tool barely usable for professional work.
+that makes the tool **barely usable** for professional work.
+
+<br>
 
 | | Old Model (in slides) | New Model (current) |
 |---|---|---|
 | **System** | Credits per prompt | Usage-based quota |
-| **Limits** | Monthly pool, roll-over | Daily + weekly hard caps |
+| **Limits** | Monthly pool, roll-over | **Daily + weekly hard caps** |
 | **Predictability** | ✅ High | ❌ Low |
+| **Value** | ✅ Great | ❌ Poor |
 
-> Even the new **$200/month plan** is more limited than comparable subscriptions from other AI coding tools.
+<br>
 
-👉 Check [**windsurf.com/pricing**](https://windsurf.com/pricing) for current details before subscribing.
+### ⛔ Even the $200/month plan is more limited than competing tools at lower prices.
 
----
+<br>
+
+### 👉 Check [windsurf.com/pricing](https://windsurf.com/pricing) for current details before subscribing.
+
+<br>
+
+</td></tr></table>
 
 </div>
+
+# Coding with Windsurf
+
+**Optimizing for Cost and Productivity**
 
 ![Windsurf Slide Edit](assets/windsurf-slide-edit.png)
 
